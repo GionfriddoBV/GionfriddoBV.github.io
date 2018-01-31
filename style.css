@@ -1,12 +1,10 @@
+/*Selector {
+	Property: Value;
+}*/
 
-body,
-html {
-  width: 100%;
-  height: 100%; 
-}
-
-body {
-  font-family: 'Montserrat', sans-serif;
+* {
+	background-color: black;
+	text-align: center;
 }
 
 hr {
@@ -19,6 +17,9 @@ hr {
   color: rgba(255, 255, 255, 0.8); 
 }
 
+.photo {
+	margin-top: 50px;
+}
 header.startup {
   background-position: center;
   background-image: url("indexpic.jpg");
@@ -27,7 +28,7 @@ header.startup {
 }
 
 header.startup hr {
-  margin-top: 200px;
+  margin-top: 20px;
   margin-bottom: 30px; 
 }
 
@@ -36,7 +37,7 @@ header.startup h1 {
 }
 
 .btn {
-  font-weight: 700;
+  font-weight: 900;
   text-transform: uppercase;
   border-radius: 300px;
   font-family: 'Montserrat', sans-serif;
@@ -47,13 +48,13 @@ header.startup h1 {
 }
 
 .btn-primary {
-  background-color: #F05F44;
-  border-color: #F05F44; }
+  background-color: #45B60F;
+  border-color: #45B60F;
+   }
 
 .btn-primary:hover {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
+  background-color: #45B60F;
+  border-color: #45B60F;
   border-width: 5px;
   cursor: pointer;
 }
-  
